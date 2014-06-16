@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{print content('title')/}_{print webinfo('web_name')/}</title>
+<link href="{path template/}/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+{include head/}
+
+{print cateinfo('cate_pic')/}
+
+<div class="materials">
+	<div class="left">
+   	  <hr class="line"/>
+   	  <div class="subclass">
+            <div class="title">
+                    <span class="chinesetitle">材料·原材料</span>
+                    <span class="englishtitle">MATERIAL</span>
+            </div>
+            <div class="line2"></div>
+            <ul class="classlist">
+            	<li class="selected">十川橡胶的配合技术</li>
+                <li>三元乙丙橡胶（EPDM）</li>
+                <li>硅橡胶（Q）</li>
+                <li>全氟聚醚橡胶</li>
+                <li>丁腈橡胶（NBR） </li>
+                <li>氢化丁腈橡胶（HNBR）</li>
+            </ul>
+         </div>
+  	  {include left/}
+       
+    </div>
+    <div class="right">
+    	<div class="BreadCrumbs">{position source=position/}</div>
+        <div class="rightcontent">
+        
+        {print content('content')/}
+        
+        </div>
+    </div>
+</div>
+
+{include foot/}
+
+</body>
+</html>

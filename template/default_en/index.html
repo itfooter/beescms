@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="{print webinfo('web_description')/}">
+<meta name="keywords" content="{print webinfo('web_keywords')/}">
+<title>{if webinfo('web_index_name')}{print webinfo('web_index_name')/}{else}{print webinfo('web_name')/}{/if}</title>
+<link href="{path template/}/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+{include head/}
+
+
+<div class="center">
+	{flash/}    
+    <div class="centertext">
+    	<div class="centerli">
+        	<h3>Industrial<font>accessories</font></h3>
+           <img class="centerliimg" src="{path template/}/images/gongyeBanner.png" />
+           <a href="#"><img style="margin:0 77px;" src="{path template/}/images/btn_moer.png" /></a>
+       </div>
+       <div class="centerli">
+        	<h3>Kitchen<font>accessories</font></h3>
+           <img class="centerliimg" src="{path template/}/images/weichuBanner.png" />
+           <a href="#"><img style="margin:0 77px;" src="{path template/}/images/btn_moer.png" /></a>
+       </div>
+       <div class="centerli" style="background:none">
+        	<a href="#"><img src="{path template/}/images/download.jpg" /></a>
+           <a href="#"><img src="{path template/}/images/conterUS.jpg" /></a>
+       </div>
+    </div>
+</div>
+</div><!--友情-->
+{include foot/}
+</body>
+</html>

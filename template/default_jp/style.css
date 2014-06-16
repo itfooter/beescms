@@ -1,0 +1,96 @@
+body {margin:0px; padding:0px; font-family:'微软雅黑'; font-size:14px; line-height:14px; height:auto !important}
+html {height:auto !important;}
+img {border:0 none; margin:0 0 0 0; padding:0 0 0 0;}
+ul,li {margin:0; padding:0; list-style:none;}
+.top {width:100%; height:129px; background-image:url(images/topBG.jpg); background-repeat:repeat-x;}
+.tip { height:79px; width:900px; margin:0 auto;}
+.lauage img {vertical-align: text-bottom;}
+.logo {margin-left:250px; height:69px; width:367px; float:left;}
+.lauage {width:250px; height:79px; float:right; text-align:left; color:#999; font-size:12px;}
+.lauage a:link {text-decoration: none; color:#999}
+.lauage a:visited {text-decoration:none; color:#999}
+.lauage a:hover {text-decoration: none;color: #000; background-image:url(images/liBG_hove.jpg); background-repeat:no-repeat; background-position:center;}
+.lauage a:active {text-decoration: none; color:#999}
+.dh { width:800px; height:50px; margin:0 auto;}
+.dh li { float:left;height:50px; line-height:50px; width:auto; background-image:url(images/liBG.jpg); background-repeat:no-repeat; background-position:left; width:114px; text-align:center; list-style:none;}
+.dh a {color: #666;}
+.dh li:link {text-decoration: none;}
+.dh li:visited {text-decoration:}
+.dh li:hover {text-decoration: none;color: #000; background-image:url(images/liBG_hove.jpg); background-repeat:no-repeat; background-position:center;}
+.dh li:active {text-decoration: none;}
+.center {height:684px; width:100%; background-image:url(images/centerBG.jpg); background-size: cover;}
+.foot {height:auto; min-height:157px; background-image: url(images/footBG.jpg); background-repeat:repeat-x; background-color:#009475; text-align:center; color:#b8d9ce; font-size:12px; line-height:50px; clear:both;}
+.bannerhome {height:390px; width:960px; margin:0 auto;}
+.centertext {width:968px; height:259px; background-image:url(images/centertextBG.png); margin:0 auto;}
+.centerli { height:217px; width:297px; margin:20px 0px 20px 24px; background-image:url(images/centerliBG.png); float:left;}
+.centerli h3 {margin:0 10px; font-size:14px; color:#007577; background-image:url(images/h3bg.png); background-repeat:no-repeat; background-position:left; padding-left:14px;}
+.centerli h3 font {color:#999; font-size:10px; padding-left:14px; font-weight:normal;}
+.centerliimg { margin:20px 10px 10px 10px;}
+
+/*jq*/
+.flexslider{position:relative;height:400px;overflow:hidden;}
+.slides{position:relative;z-index:1;}
+.slides li{height:400px;}
+.flex-control-nav{position:absolute;bottom:10px;z-index:2;width:100%;text-align:center; margin-left:350px;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:40px;overflow:hidden;background:url(images/dot.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+/*endJQ*/
+.banner{height:128px; width:100%; background-position:center 0; background-repeat:no-repeat; text-align:center; margin:0 0 30px 0;}
+/*原材料中部*/
+.materials{width:960px; margin:0 auto 0 auto; height:auto !important;font-size:12px;}
+.materials .left{width:250px; margin:0 50px 0 0; float:left; height:auto !important;}
+.materials .left .subclass{border:solid 1px #DDD; border-top:none; margin:0 0 0 0; padding-bottom:10px;}
+.materials .left .line{background-Color:#009475; height:9px; margin:0 0 0 0; border:0 none;}
+.materials .left .subclass .title{height:35px; margin:0 0 0 0;}
+.materials .left .subclass .title .chinesetitle{margin:7px 0 0 30px; color:#007577; font-weight:bold; font-size:14px; display:block; float:left;}
+.materials .left .subclass .title .englishtitle{margin:10px 0 0 5px; color:#999999; font-size:10px; display:block; float:left;}
+.materials .left .subclass .line2{width:226px; border-bottom:solid 1px #AACEB0; margin:0 auto 0 auto; clear:both;}
+.materials .left .subclass .classlist{}
+.materials .left .subclass .classlist li{height:30px; line-height:30px; color:#000; font-size:14px; padding:0 0 0 50px;}
+.materials .left .subclass .classlist li.selected{background-color:#C9EED9;}
+.materials .left .xinrenpinzhi{margin:30px 0 0 0;}
+.materials .left .xinrenpinzhi .title{height:35px;}
+.materials .left .xinrenpinzhi .title .img{display:block; float:left; width:10px; height:10px; margin:5px 0 0 0;}
+.materials .left .xinrenpinzhi .title .chinesetitle{margin:0 0 0 0px; color:#007577; font-weight:bold; font-size:14px; display:block; float:left;}
+.materials .left .xinrenpinzhi .title .englishtitle{margin:2px 0 0 5px; color:#999999; font-size:10px; display:block; float:left;}
+.materials .left .xinrenpinzhi img{margin:0 0 20px 0;}
+.materials .left .contactus{margin:10px 0 20px 0;}
+.materials .left .contactus .body{background:url('images/contactbody.png') 0 0 repeat; padding:0 0 0 0; margin:0 0 0 0;}
+.materials .left .contactus .body table{width:90%; margin:0 auto 0 auto;}
+.materials .left .contactus .body table tr td{height:35px; vertical-align:middle; line-height:14px; width:40px;}
+.materials .left .contactus .body table tr td.ttop{vertical-align:bottom; font-weight:bold;}
+.materials .left .contactus .body table tr td.bottom{vertical-align:top; font-size:10px;}
+.materials .right{width:660px; float:left; font-family:'宋体';}
+.materials .right .BreadCrumbs{height:50px; line-height:14px;}
+.materials .right .rightcontent{line-height:20px;}
+/*原材料中部*/
+/*产品介绍*/
+.materials .right .rightcontent .piclist li{border:solid 1px #DDD; float:left; margin:15px 15px 0 0;}
+/*产品介绍*/
+/*公司介绍*/
+.Description{width:960px; margin:0 auto 0 auto; height: auto !important;font-size:12px;}
+.Description .right{width:250px; margin:0 50px 0 0; float:left;}
+.Description .right .xinrenpinzhi{margin:30px 0 0 0;}
+.Description .right .xinrenpinzhi .title{height:35px;}
+.Description .right .xinrenpinzhi .title .img{display:block; float:left; width:10px; height:10px; margin:5px 0 0 0;}
+.Description .right .xinrenpinzhi .title .chinesetitle{margin:0 0 0 0px; color:#007577; font-weight:bold; font-size:14px; display:block; float:left;}
+.Description .right .xinrenpinzhi .title .englishtitle{margin:2px 0 0 5px; color:#999999; font-size:10px; display:block; float:left;}
+.Description .right .xinrenpinzhi img{margin:0 0 20px 0;}
+.Description .right .contactus{margin:10px 0 0 0;}
+.Description .right .contactus .body{background:url('images/contactbody.png') 0 0 repeat; padding:0 0 0 0; margin:0 0 0 0;}
+.Description .right .contactus .body table{width:90%; margin:0 auto 0 auto;}
+.Description .right .contactus .body table tr td{height:35px; vertical-align:middle; line-height:14px; width:40px;}
+.Description .right .contactus .body table tr td.ttop{vertical-align:bottom; font-weight:bold;}
+.Description .right .contactus .body table tr td.bottom{vertical-align:top; font-size:10px;}
+.Description .left{width:650px; float:left; font-family:'宋体'; background:url('images/Vertical.jpg') right 0 repeat-y; margin:0 10px 0 0; height:1300px;}
+.Description .left .img{text-align:center; margin:20px 0 20px 0}
+.Description .left .img img{border:solid 1px #DDD;}
+.Description .left .leftcontent{line-height:20px; width:90%;}
+.Description .left table tr td{height:250px;}
+/*公司介绍*/
+/*用途市场*/
+.materials .right .rightcontent .uselist{width:300px;}
+.materials .right .rightcontent .uselist li{list-style-type:disc; list-style-position:inside;}
+.materials .right .rightcontent .title{height:50px; line-height:14px; font-weight:bold; padding:20px 0 0 0;}
+.materials .right .rightcontent .parts tr td{vertical-align:top;}

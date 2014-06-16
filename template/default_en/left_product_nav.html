@@ -1,0 +1,17 @@
+
+
+{assign source=get_tpl_list_nav(3,1) name=tree/}
+<hr class="line"/>
+  <div class="subclass">
+        <div class="title">
+                <span class="chinesetitle">产品介绍</span>
+                <span class="englishtitle">Product introduction</span>
+        </div>
+        <div class="line2"></div>
+        <ul class="classlist">
+            <li>产品介绍</li>
+            {loop source=$tree item=$nav}
+            <li class="{print $nav['class']/}"><a href="{print $nav['url']/}">{print $nav['cate_name']/}</a></li>
+            {/loop}
+        </ul>
+     </div>

@@ -1,0 +1,21 @@
+
+<div class="top">
+    <div class="tip">
+  	<div class="logo"><a href="{path index/}"><img src="{path template/}/images/logo1.png" /></a></div>
+    <div class="lauage">
+    	<a href="{path index/}"><img src="{path template/}/images/logo2.jpg" /></a><br />
+        <a href="{path index/}">中文版</a>
+        
+        <a style="margin-left:10px;" href="/index.php?lang=en"><img src="{path template/}/images/btn_eng.png" /></a>
+        <a href="/index.php?lang=jp"><img src="{path template/}/images/btn_jp.png" /></a>
+    </div>
+  </div>
+  <div class="dh">
+    <ul>
+        <a href="{path index/}"><li style="background:none">首页</li></a>
+        {loop source=nav_middle() item=$nav_child}
+        <a href="{print $nav_child['url']/}"><li>{print $nav_child['cate_name']/}</li></a>
+        {/loop}
+    </ul>
+	</div>
+</div>

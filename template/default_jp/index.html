@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{if webinfo('web_index_name')}{print webinfo('web_index_name')/}{else}{print webinfo('web_name')/}{/if}</title>
+<link href="{path template/}/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+{include head/}
+
+<div class="center">
+	{flash/}       
+    <div class="centertext">
+    	{assign source=get_tpl_list_nav() name=tree/}
+    	<div class="centerli">
+        	<h3>工业用品<font>GONG YE YONG PIN</font></h3>
+           <img class="centerliimg" src="{path template/}/images/gongyeBanner.png" />
+           <a href="#"><img style="margin:0 77px;" src="{path template/}/images/btn_moer.png" /></a>
+       </div>
+       <div class="centerli">
+        	<h3>卫厨用品<font>GONG YE YONG PIN</font></h3>
+           <img class="centerliimg" src="{path template/}/images/weichuBanner.png" />
+           <a href="#"><img style="margin:0 77px;" src="{path template/}/images/btn_moer.png" /></a>
+       </div>
+       
+       <div class="centerli" style="background:none">
+        	<a href="/down/down.php?id=31"><img src="{path template/}/images/download.jpg" /></a>
+           <a href="/contact.html"><img src="{path template/}/images/conterUS.jpg" /></a>
+       </div>
+    </div>
+</div>
+{include foot/}
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{if webinfo('web_index_name')}{print webinfo('web_index_name')/}{else}{print webinfo('web_name')/}{/if}</title>
+<link href="{path template/}/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+{include head/}
+
+<div class="center">
+	{flash/}       
+    <div class="centertext">
+    	{assign source=get_tpl_cate_list($where='is_index=1',$pic='yes',$order_type='',$order='',$limit='0,2',$lang='') name=index_cate/}
+        {loop source=$index_cate}
+    	<div class="centerli">
+        	<h3><a href="{print $v['cate_url']/}">{print $v['cate_name']/}</a></h3>
+           <a href="{print $v['cate_url']/}"><img class="centerliimg" src="{print $v['cate_pic2']/}" /></a>
+           <a href="{print $v['cate_url']/}"><img style="margin:0 77px;" src="{path template/}/images/btn_moer.png" /></a>
+       </div>
+       {/loop}
+       
+       <div class="centerli" style="background:none">
+        	<a href="/down/down.php?id=31"><img src="{path template/}/images/download.jpg" /></a>
+           <a href="/contact.html"><img src="{path template/}/images/conterUS.jpg" /></a>
+       </div>
+    </div>
+</div>
+{include foot/}
+</body>
+</html>
