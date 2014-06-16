@@ -22,6 +22,7 @@ $parent_id=get_cate_last_parent($cat_id);//获取最终顶级栏目
 
 $tpl->template_dir=TP_PATH.$_confing['web_template'].'/';
 $tpl->template_lang=$lang;
+
 if($_confing['is_cache']){
 	$tpl->template_is_cache=1;//缓存
 	$tpl->template_time=$_confing['cache_time']?$_confing['cache_time']:30;//开启缓存但不存在缓存时间使用30秒
@@ -31,14 +32,14 @@ if($_confing['is_cache']){
 
 if(!$cate_info['cate_pic1'])
 {
-	$topcate = $cate_info=get_cate_info($parent_id,$category);
+	$topcate =get_cate_info($parent_id,$category);
 	$cate_pic = $topcate ? $topcate['cate_pic1'] : '';
 }
 else
 {
 	$cate_pic = $cate_info['cate_pic1'];
 }
-$cate_info['cate_pic'] = $cate_info['cate_pic1'] ? '<div class="banner" style="background-image:url(/upload/'.$cate_pic.');"></div>' : '';
+$cate_info['cate_pic'] = $cate_pic ? '<div class="banner" style="background-image:url(/upload/'.$cate_pic.');"></div>' : '';
 
 //获取第一个关键词作为相关内容调用
 $key_arr = empty($cate_info['cate_key_seo'])?'':explode(',',$cate_info['cate_key_seo']);
