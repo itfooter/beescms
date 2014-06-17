@@ -36,7 +36,7 @@ input,textarea,select{font-size:12px;padding:1px;}
 .login{margin:180px auto; width:440px; height:180px; overflow:hidden; background:url('images/login_k_bg1.gif') repeat-x left top;}
 .login_bg{margin:7px; padding:2px; height:162px; background:url('images/login_k_bg2.gif') repeat-x left top}
 .login_bg2{background:#057fcc; height:162px;}
-.login_title{padding-top:29px; background:url(images/login_title.gif) no-repeat 10px 5px;}
+.login_title{padding-top:29px;}
 .login form{padding-left:120px; background:url(images/login_icon.gif) no-repeat 15px center; margin-top:18px;}
 .login_left{width:195px; float:left}
 .login_left p{height:28px; line-height:28px;}
