@@ -27,6 +27,7 @@ $RECYCLE.BIN/
 data/*
 upload/*
 .idea
+.idea/*
 
 # Icon must ends with two \r.
 Icon
