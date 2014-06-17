@@ -24,9 +24,12 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
+data
+.idea
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
