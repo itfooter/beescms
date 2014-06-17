@@ -24,7 +24,8 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
-data
+data/*
+upload/*
 .idea
 
 # Icon must ends with two \r.
