@@ -14,10 +14,10 @@
 <div class="Description">
   <div class="left" style="padding-bottom:200px;">
     <table style="width:470px;" border="0" align="center" cellpadding="0" cellspacing="0">
-        {loop source=get_link()}
+        {loop source=get_link(1)}
         <tr>
        	  	<td><a href="{print $v['link_url']/}">点此进入>> {print $v['link_name']/}</a> </td>
-            <td align="center"><img src="upfile/ISO140012004.jpg" width="130" height="184" alt="ISO14001:2004" title="" /><br /><br />
+            <td align="center"><img src="{print $v['link_logo']/}" width="130" height="184" alt="{print $v['link_name']/}" title="" /><br /><br />
             {print $v['link_name']/}</td>
         </tr>
         {/loop}

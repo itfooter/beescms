@@ -1,14 +1,14 @@
-{assign source=get_tpl_list_nav() name=tree/}
+{assign source=get_tpl_left_list_nav() name=tree/}
 {if $tree}
 <hr class="line"/>
 <div class="subclass">
     <div class="title">
             <span class="chinesetitle">{print $tree['cate_name']/}</span>
-            <span class="englishtitle">Download</span>
+            
     </div>
     <div class="line2"></div>
     <ul class="classlist">
-    	{loop source=$tree}
+    	{loop source=$tree['child']}
         <li class="{print $v['class']/}"><a href="{print $v['url']/}" {print $v['target']/} title="{print $v['cate_name']/}">{print $v['cate_name']/}</a></li>
         {/loop}
     </ul>

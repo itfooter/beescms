@@ -77,9 +77,9 @@ $(document).ready(function(){
 		<tr>
 		  <td class="w1" style="text-align:center">网站名称:</td><td class="w2"><input type="text" name="link_name" style="width:80%" value="<?php echo $rel[0]['link_name'];?>"/></td><td class="w3"></td>
 		</tr>
-		<tr>
+		<!--<tr>
 		  <td class="w1" style="text-align:center">链接类型:</td><td class="w2"><label for="f1"><input id="f1" type="radio" name="link_type" <?php if($rel[0]['link_type']==0){?>checked="checked"<?php }?> style="border:none; margin-top:3px;" value="0" />文字</label><label for="f2"><input id="f2" type="radio" <?php if($rel[0]['link_type']==1){?>checked="checked"<?php }?> name="link_type" style="border:none; margin-top:3px;" value="1" />图片</label></td><td class="w3"></td>
-		</tr>
+		</tr>-->
 		<tr>
 		  <td class="w1" style="text-align:center">网站LOGO(88*31):</td><td class="w2"><input name="link_logo" value="<?php echo $rel[0]['link_logo'];?>" style="width:30%; display:block; float:left; margin-top:55px;" id="pic_path" />
 		  <p style="margin-top:55px;" class="admin_up_pic"><a href="#" id="link_pic">上传图片</a></p><span id="show_pic_path" class="admin_show_pic"><?php if($rel[0]['link_logo']){?><a href="../upload/<?php echo $rel[0]['link_logo'];?>" target="_blank"><img src="../upload/<?php echo $rel[0]['link_logo'];?>"  height="120" width="120" border="0"/></a><?php }else{?><a href="#" id="link_pic2"><img src="../upload/no_pc.gif"  height="120" width="120"/></a> <?php }?></span>
@@ -91,18 +91,19 @@ $(document).ready(function(){
 		<tr>
 		  <td class="w1" style="text-align:center">网站说明:</td><td class="w2"><textarea name="link_info" style="width:80%; height:100px;"><?php echo $rel[0]['link_info'];?></textarea></td><td class="w3"></td>
 		</tr>
-		<tr>
+		<!--<tr>
 		  <td class="w1" style="text-align:center">站长Email:</td><td class="w2"><input type="text" name="link_mail" style="width:80%" value="<?php echo $rel[0]['link_mail'];?>"/></td><td class="w3"></td>
 		</tr>
 		<tr>
 		  <td class="w1" style="text-align:center">链接位置:</td><td class="w2">首页</td><td class="w3"></td>
-		</tr>
+		</tr>-->
 		
 	</tbody>
  </table>
  </div>
 
 <div class="order_btn">
+<input type="hidden" name="link_type" value="1" />
 <input type="hidden" name="action" value="save_edit"/><input type="hidden" name="lang" value="<?php echo $lang;?>"/><input type="hidden" name="id" value="<?php echo $id;?>" />
   <input type="submit" value="修改" name="submit" class="go"/><input type="reset" class="go" value="重置" name="reset"/>
  </div>

@@ -14,7 +14,7 @@
 <div class="materials">
 	<div class="left">
     
-   	  <?php $this->display('left_product_nav',1,1);?>
+   	  <?php $this->display('left_tree',1,1);?>
       
   	  <?php $this->display('left',1,1);?>
        

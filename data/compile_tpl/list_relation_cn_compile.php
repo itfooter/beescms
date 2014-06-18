@@ -15,11 +15,11 @@
   <div class="left" style="padding-bottom:200px;">
     <table style="width:470px;" border="0" align="center" cellpadding="0" cellspacing="0">
         <?php 
- $fun_return=get_link();if(isset($fun_return)&&is_array($fun_return)){
+ $fun_return=get_link(1);if(isset($fun_return)&&is_array($fun_return)){
 foreach($fun_return as $v){?>
         <tr>
        	  	<td><a href="<?php echo $v['link_url'];?>">点此进入>> <?php echo $v['link_name'];?></a> </td>
-            <td align="center"><img src="upfile/ISO140012004.jpg" width="130" height="184" alt="ISO14001:2004" title="" /><br /><br />
+            <td align="center"><img src="<?php echo $v['link_logo'];?>" width="130" height="184" alt="<?php echo $v['link_name'];?>" title="" /><br /><br />
             <?php echo $v['link_name'];?></td>
         </tr>
         <?php 
