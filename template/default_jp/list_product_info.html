@@ -14,7 +14,7 @@
 <div class="materials">
 	<div class="left">
     
-   	  {include left_tree/}
+   	  {include left_product_nav/}
       
   	  {include left/}
        
@@ -24,7 +24,14 @@
       <div class="rightcontent">
       
       {print cateinfo('cate_content')/}
-
+      
+      <ul class="piclist">
+      	<!--<a href="{print $v['url']/}" {print $v['target']/}>-->
+        {loop source=list_article()}
+       	<li><img src="{print $v['thumb_pic']/}" border="0" title="{print $v['title']/}" /></li>
+       {/loop} 
+       
+    </ul>
 </div>
     </div>
 </div>

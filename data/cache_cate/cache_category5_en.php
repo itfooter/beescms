@@ -29,7 +29,9 @@ $category=array (
     'cate_pic1' => '',
     'cate_pic2' => '',
     'cate_pic3' => '',
-    'cate_content' => '',
+    'cate_content' => '<p>
+	BF膜片相关介绍</p>
+',
     'temp_id' => '4',
     'list_num' => '20',
     'nav_show' => '0',

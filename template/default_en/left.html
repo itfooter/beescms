@@ -8,29 +8,32 @@
   <img src="{path template/}/images/iso14001.png" width="250" height="70" alt="" title="" />
 </div>
 <div class="contactus">
-<div><img src="{path template/}/images/contacttop.png" width="250" height="17" border="0" alt="联系我们" title="" /></div>
+<div><img src="{path template/}/images/contacttop.png" width="250" height="17" border="0" alt="contact us" title="" /></div>
     <div class="body">
+     {assign source=webinfo('web_address') name=address/}
+     {assign source=webinfo('web_phone') name=phone/}
+     {assign source=webinfo('web_mail') name=mail/}
         <table border="0" cellpadding="0" cellspacing="0">
             <tr>
                 <td rowspan="2" style="border-bottom:solid 1px #D3E6D6;"><img src="{path template/}/images/email.png" width="52" height="50" alt="" title="" /></td>
                 <td class="ttop">E-mail</td>
             </tr>
             <tr>
-                <td class="bottom" style="border-bottom:solid 1px #D3E6D6;">123467@123.com</td>
+                <td class="bottom" style="border-bottom:solid 1px #D3E6D6;">{if $mail}{print $mail/}{/if}</td>
             </tr>
             <tr>
                 <td rowspan="2" style="border-bottom:solid 1px #D3E6D6;"><img src="{path template/}/images/serverphone.png" width="52" height="50" alt="" title="" /></td>
                 <td class="ttop">Customer phone</td>
             </tr>
             <tr>
-                <td class="bottom" style="border-bottom:solid 1px #D3E6D6;">0571-82365378</td>
+                <td class="bottom" style="border-bottom:solid 1px #D3E6D6;">{if $phone}{print $phone/}{/if}</td>
             </tr>
             <tr>
                 <td rowspan="2"><img src="{path template/}/images/address.png" width="52" height="50" alt="" title="" /></td>
                 <td class="ttop">Adress</td>
             </tr>
             <tr>
-                <td class="bottom">Pu Industrial Park in Zhejiang province Shangyu city Chinese</td>
+                <td class="bottom">{if $address}{print $address/}{/if}</td>
             </tr>
         </table>
     </div>

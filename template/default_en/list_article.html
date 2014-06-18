@@ -17,8 +17,10 @@
         {loop  source=list_article()}
         <tr>
        	  	<td>{print date('Y-m',$v['updatetime'])/} <a href="{print $v['url']/}" {print $v['target']/} style="{print $v['style']/}">{print $v['title']/}</a> </td>
-            <td align="center"><img src="upfile/ISO140012004.jpg" width="130" height="184" alt="ISO14001:2004" title="" /><br /><br />
+            {if $v['thumb_pic']}
+            <td align="center"><img src="{print $v['thumb_pic']/}" width="130" height="184" alt="{print $v['title']/}" title="" /><br /><br />
             {print $v['title']/}</td>
+            {/if}
         </tr>
 
         {/loop}

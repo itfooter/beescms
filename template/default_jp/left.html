@@ -10,27 +10,30 @@
 <div class="contactus">
     <div><img src="{path template/}/images/contacttop.png" width="250" height="17" border="0" alt="联系我们" title="" /></div>
     <div class="body">
+     {assign source=webinfo('web_address') name=address/}
+     {assign source=webinfo('web_phone') name=phone/}
+     {assign source=webinfo('web_mail') name=mail/}
         <table border="0" cellpadding="0" cellspacing="0">
             <tr>
                 <td rowspan="2" style="border-bottom:solid 1px #D3E6D6;"><img src="{path template/}/images/email.png" width="52" height="50" alt="" title="" /></td>
                 <td class="ttop">客服邮件</td>
             </tr>
             <tr>
-                <td class="bottom" style="border-bottom:solid 1px #D3E6D6;">E-MAIL：123467@123.com</td>
+                <td class="bottom" style="border-bottom:solid 1px #D3E6D6;">E-MAIL：{if $mail}{print $mail/}{/if}</td>
             </tr>
             <tr>
                 <td rowspan="2" style="border-bottom:solid 1px #D3E6D6;"><img src="{path template/}/images/serverphone.png" width="52" height="50" alt="" title="" /></td>
                 <td class="ttop">客服电话</td>
             </tr>
             <tr>
-                <td class="bottom" style="border-bottom:solid 1px #D3E6D6;">TEL：0571-82365378</td>
+                <td class="bottom" style="border-bottom:solid 1px #D3E6D6;">TEL：{if $phone}{print $phone/}{/if}</td>
             </tr>
             <tr>
                 <td rowspan="2"><img src="{path template/}/images/address.png" width="52" height="50" alt="" title="" /></td>
                 <td class="ttop">公司地址</td>
             </tr>
             <tr>
-                <td class="bottom">ADD：中国浙江省上虞市上浦工业园区000</td>
+                <td class="bottom">ADD：{if $address}{print $address/}{/if}</td>
             </tr>
         </table>
     </div>

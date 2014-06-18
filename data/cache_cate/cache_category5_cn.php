@@ -30,7 +30,7 @@ $category=array (
     'cate_pic2' => '',
     'cate_pic3' => '',
     'cate_content' => '<p>
-	iiiiii</p>
+	BF膜片相关介绍</p>
 ',
     'temp_id' => '4',
     'list_num' => '20',

@@ -111,13 +111,15 @@ $(document).ready(function(){
 		<tr>
 		  <td class="w1">默认缓存时间:</td><td class="w2"><input type="text" name="cache_time" style="width:100px" value="<?php if($_confing['cache_time']){echo $_confing['cache_time'];}else{echo '30';}?>" />秒</td><td class="w3">只能动态页面使用,开启缓存使用</td>
 		</tr>
-		<tr>
+		<!--<tr>
 		  <td class="w1">网站logo:<p style="color:#FF0000">大小：<?php echo $tpl_confing['logo_size'];?></p></td><td class="w2"><input name="web_logo" value="<?php echo $_confing['web_logo'];?>" style="width:30%; display:block; float:left; margin-top:55px;" id="thumb" />
 		 <p style="margin-top:55px;" class="admin_up_pic"><a href="#" id="cate_pic1_btn">上传图片</a></p><span id="show_thumb" class="admin_show_pic"><a href="#" id="cate_pic1_btn1"><img src="<?php if($_confing['web_logo']){ echo '../upload/'.$_confing['web_logo'];}else{?>../upload/no_pc.gif<?php }?>"  height="120" width="120"/></a></span></td><td class="w3"></td>
-		</tr>
+		</tr>-->
 		<tr>
 		  <td class="w1"><span title="更换模板会清空现有模板配置" class="help">当前语言模板风格:</span></td><td class="w2"><p style="float:left; width:30%; margin-top:50px;">template/<input type="text" id="tpl" name="web_template" style="width:100px;" value="<?php echo isset($_confing['web_template'])&&!empty($_confing['web_template'])?$_confing['web_template']:'default';?>"/></p>
-		   <p style="margin-top:55px;" class="admin_up_pic"><a href="#" class="sl_tpl">选择模板</a></p><span id="show_tpl" class="admin_show_pic"><a href="<?php echo isset($_confing['web_template'])&&!empty($_confing['web_template'])?'../template/'.$_confing['web_template'].'/thumb.gif':'../upload/no_pc.gif';?>" target="_blank"><img src="<?php echo isset($_confing['web_template'])&&!empty($_confing['web_template'])?'../template/'.$_confing['web_template'].'/thumb.gif':'../upload/no_pc.gif';?>"  height="120" width="120"/></a></span>
+		   <p style="margin-top:55px;" class="admin_up_pic"><a href="#" class="sl_tpl">选择模板</a></p>
+           <!--<span id="show_tpl" class="admin_show_pic"><a href="<?php echo isset($_confing['web_template'])&&!empty($_confing['web_template'])?'../template/'.$_confing['web_template'].'/thumb.gif':'../upload/no_pc.gif';?>" target="_blank"><img src="<?php echo isset($_confing['web_template'])&&!empty($_confing['web_template'])?'../template/'.$_confing['web_template'].'/thumb.gif':'../upload/no_pc.gif';?>"  height="120" width="120"/></a></span>
+           -->
 		  </td><td class="w3">$web_template</td>
 		</tr>
 		<tr>
@@ -129,7 +131,7 @@ $(document).ready(function(){
 		<tr>
 		  <td class="w1">首页站点描述(SEO):</td><td class="w2"><textarea name="web_description" style="width:95%; height:50px;"><?php echo isset($_confing['web_description'])?$_confing['web_description']:'';?></textarea></td><td class="w3">$web_description</td>
 		</tr>
-		<tr>
+		<!--<tr>
 		  <td class="w1"><span title="支持html代码" class="help">页脚营销客服代码(如53KF代码):</span></td><td class="w2"><textarea name="web_yinxiao" style="width:95%; height:50px;"><?php echo isset($_confing['web_yinxiao'])?$_confing['web_yinxiao']:'';?></textarea></td><td class="w3">$web_yinxiao</td>
 		</tr>
 		<tr>
@@ -137,7 +139,17 @@ $(document).ready(function(){
 		</tr>
 		<tr>
 		  <td class="w1">全局标签(用|分开):</td><td class="w2"><input type="text" style="width:95%;" value="<?php echo $_confing['all_key'];?>" name="all_key" /></td><td class="w3">需要模板支持</td>
+		</tr>-->
+        <tr>
+		  <td class="w1">客服邮件:</td><td class="w2"><input type="text" name="web_mail" style="width:80%" value="<?php echo isset($_confing['web_mail'])?$_confing['web_mail']:'';?>"/></td><td class="w3">$web_mail</td>
 		</tr>
+        <tr>
+		  <td class="w1">客服电话:</td><td class="w2"><input type="text" name="web_phone" style="width:80%" value="<?php echo isset($_confing['web_phone'])?$_confing['web_phone']:'';?>"/></td><td class="w3">$web_phone</td>
+		</tr>
+        <tr>
+		  <td class="w1">公司地址:</td><td class="w2"><input type="text" name="web_address" style="width:80%" value="<?php echo isset($_confing['web_address'])?$_confing['web_address']:'';?>"/></td><td class="w3">$web_address</td>
+		</tr>
+        
 	</tbody>
 	 </table>
 		</div>

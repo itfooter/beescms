@@ -40,6 +40,9 @@ if($_confing['is_cache']){
 }else{
 	$tpl->template_is_cache=0;
 }
+
+$cate_info['cate_pic'] = $cate_info['cate_pic1'] ? '<div class="banner" style="background-image:url(/upload/'.$cate_info['cate_pic1'].'); margin-bottom:0px;"></div>' : '<div class="banner"  style="height:0;"></div>';
+
 $page=empty($page)?1:intval($page);
 //文章分页，通过编辑器分页使用
 $body_content=$content['content'];

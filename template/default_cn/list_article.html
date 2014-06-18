@@ -19,12 +19,12 @@
         {loop  source=list_article()}
         <tr>
        	  	<td>{print date('Y-m',$v['updatetime'])/} <a href="{print $v['url']/}" {print $v['target']/} style="{print $v['style']/}">{print $v['title']/}</a> </td>
-            <td align="center">
             {if $v['thumb_pic']}
+            <td align="center">
             <img src="{print $v['thumb_pic']/}" width="130" height="184" alt="{print $v['title']/}" title="" /><br /><br />
             {print $v['title']/}
-            {/if}
             </td>
+            {/if}
         </tr>
 
         {/loop}

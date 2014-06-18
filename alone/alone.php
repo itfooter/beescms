@@ -27,7 +27,7 @@ if($_confing['is_cache']){
 }
 
 
-$cate_info['cate_pic'] = $cate_info['cate_pic1'] ? '<div class="banner" style="background-image:url(/upload/'.$cate_info['cate_pic1'].'); margin-bottom:0px;"></div>' : '';
+$cate_info['cate_pic'] = $cate_info['cate_pic1'] ? '<div class="banner" style="background-image:url(/upload/'.$cate_info['cate_pic1'].'); margin-bottom:0px;"></div>' : '<div class="banner"  style="height:0;"></div>';
 
 
 //单页频道

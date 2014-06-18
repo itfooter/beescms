@@ -2,26 +2,26 @@
 $category=array (
   0 => 
   array (
-    'id' => '37',
+    'id' => '42',
     'custom_url' => '',
-    'cate_name' => 'Reation',
+    'cate_name' => 'download',
     'cate_mb_is' => '0',
     'cate_hide' => '0',
-    'cate_channel' => '1',
-    'cate_fold_name' => 'reation',
-    'cate_order' => '6',
+    'cate_channel' => '4',
+    'cate_fold_name' => 'download_en',
+    'cate_order' => '10',
     'cate_rank' => '0',
-    'cate_tpl' => '3',
-    'cate_tpl_index' => '',
-    'cate_tpl_list' => 'list_relation.html',
-    'cate_tpl_content' => 'alone_content.html',
+    'cate_tpl' => '0',
+    'cate_tpl_index' => NULL,
+    'cate_tpl_list' => 'list_down.html',
+    'cate_tpl_content' => 'down_content.html',
     'cate_title_seo' => '',
     'cate_key_seo' => '',
     'cate_info_seo' => '',
     'lang' => 'en',
     'cate_parent' => '0',
     'cate_html' => '1',
-    'cate_nav' => '2',
+    'cate_nav' => '',
     'is_content' => '0',
     'cate_url' => 'http://',
     'cate_is_open' => '0',
@@ -37,19 +37,54 @@ $category=array (
   ),
   1 => 
   array (
-    'id' => '36',
+    'id' => '41',
     'custom_url' => '',
-    'cate_name' => 'Materials',
+    'cate_name' => 'contact us',
     'cate_mb_is' => '0',
     'cate_hide' => '0',
     'cate_channel' => '1',
-    'cate_fold_name' => 'materials',
-    'cate_order' => '5',
+    'cate_fold_name' => 'contact_us_en',
+    'cate_order' => '10',
     'cate_rank' => '0',
     'cate_tpl' => '3',
     'cate_tpl_index' => NULL,
     'cate_tpl_list' => 'list_alone.html',
     'cate_tpl_content' => 'alone_content.html',
+    'cate_title_seo' => '',
+    'cate_key_seo' => '',
+    'cate_info_seo' => '',
+    'lang' => 'en',
+    'cate_parent' => '0',
+    'cate_html' => '1',
+    'cate_nav' => '',
+    'is_content' => '1',
+    'cate_url' => 'http://',
+    'cate_is_open' => '0',
+    'form_id' => '0',
+    'cate_pic1' => '',
+    'cate_pic2' => '',
+    'cate_pic3' => '',
+    'cate_content' => '',
+    'temp_id' => '0',
+    'list_num' => '20',
+    'nav_show' => '0',
+    'is_index' => '0',
+  ),
+  2 => 
+  array (
+    'id' => '37',
+    'custom_url' => '',
+    'cate_name' => 'Reation',
+    'cate_mb_is' => '0',
+    'cate_hide' => '0',
+    'cate_channel' => '2',
+    'cate_fold_name' => 'reation',
+    'cate_order' => '6',
+    'cate_rank' => '0',
+    'cate_tpl' => '0',
+    'cate_tpl_index' => '',
+    'cate_tpl_list' => 'list_article.html',
+    'cate_tpl_content' => 'article_content.html',
     'cate_title_seo' => '',
     'cate_key_seo' => '',
     'cate_info_seo' => '',
@@ -70,21 +105,56 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  2 => 
+  3 => 
+  array (
+    'id' => '36',
+    'custom_url' => '',
+    'cate_name' => 'Materials',
+    'cate_mb_is' => '0',
+    'cate_hide' => '0',
+    'cate_channel' => '3',
+    'cate_fold_name' => 'materials',
+    'cate_order' => '5',
+    'cate_rank' => '0',
+    'cate_tpl' => '0',
+    'cate_tpl_index' => '',
+    'cate_tpl_list' => 'list_product.html',
+    'cate_tpl_content' => 'product_content.html',
+    'cate_title_seo' => '',
+    'cate_key_seo' => '',
+    'cate_info_seo' => '',
+    'lang' => 'en',
+    'cate_parent' => '0',
+    'cate_html' => '1',
+    'cate_nav' => '2',
+    'is_content' => '0',
+    'cate_url' => 'http://',
+    'cate_is_open' => '0',
+    'form_id' => '0',
+    'cate_pic1' => '',
+    'cate_pic2' => '',
+    'cate_pic3' => '',
+    'cate_content' => '',
+    'temp_id' => '0',
+    'list_num' => '20',
+    'nav_show' => '0',
+    'is_index' => '0',
+  ),
+  4 => 
   array (
     'id' => '35',
     'custom_url' => '',
     'cate_name' => 'Market',
     'cate_mb_is' => '0',
     'cate_hide' => '0',
-    'cate_channel' => '1',
+    'cate_channel' => '3',
     'cate_fold_name' => 'market',
     'cate_order' => '4',
     'cate_rank' => '0',
-    'cate_tpl' => '3',
+    'cate_tpl' => '0',
     'cate_tpl_index' => '',
-    'cate_tpl_list' => 'list_alone.html',
-    'cate_tpl_content' => 'alone_content.html',
+    'cate_tpl_list' => 'list_product.html',
+    'cate_tpl_content' => 'product_content.html',
     'cate_title_seo' => 'Market',
     'cate_key_seo' => 'Market',
     'cate_info_seo' => '',
@@ -105,7 +175,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  3 => 
+  5 => 
   array (
     'id' => '34',
     'custom_url' => '',
@@ -140,7 +210,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  4 => 
+  6 => 
   array (
     'id' => '33',
     'custom_url' => '',
@@ -175,7 +245,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  5 => 
+  7 => 
   array (
     'id' => '31',
     'custom_url' => '',
@@ -210,7 +280,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  6 => 
+  8 => 
   array (
     'id' => '30',
     'custom_url' => '',
@@ -245,7 +315,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  7 => 
+  9 => 
   array (
     'id' => '29',
     'custom_url' => '',
@@ -280,7 +350,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  8 => 
+  10 => 
   array (
     'id' => '28',
     'custom_url' => '',
@@ -315,7 +385,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  9 => 
+  11 => 
   array (
     'id' => '26',
     'custom_url' => '',
@@ -344,13 +414,15 @@ $category=array (
     'cate_pic1' => 'img/201406122059458124.jpg',
     'cate_pic2' => '',
     'cate_pic3' => '',
-    'cate_content' => '',
+    'cate_content' => '<p>
+	用途与市场</p>
+',
     'temp_id' => '0',
     'list_num' => '20',
     'nav_show' => '0',
     'is_index' => '1',
   ),
-  10 => 
+  12 => 
   array (
     'id' => '19',
     'custom_url' => '',
@@ -363,8 +435,8 @@ $category=array (
     'cate_rank' => '0',
     'cate_tpl' => '0',
     'cate_tpl_index' => '',
-    'cate_tpl_list' => 'list_product.html',
-    'cate_tpl_content' => 'product_content.html',
+    'cate_tpl_list' => 'list_product_info.html',
+    'cate_tpl_content' => '',
     'cate_title_seo' => '',
     'cate_key_seo' => '',
     'cate_info_seo' => '',
@@ -380,7 +452,7 @@ $category=array (
     'cate_pic2' => '',
     'cate_pic3' => '',
     'cate_content' => '<p>
-	<strong>产品介绍</strong><br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
+	<strong>product intro</strong><br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
 	<br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
 	<span style="widows: 2; text-transform: none; text-indent: 0px; display: inline !important; font: 12px/20px 宋体; white-space: normal; orphans: 2; float: none; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px">弊公司开发并生产高品质橡胶部品及合成部品，销售至多个领域（市场）。</span><br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
 	<span style="widows: 2; text-transform: none; text-indent: 0px; display: inline !important; font: 12px/20px 宋体; white-space: normal; orphans: 2; float: none; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px">我们的产品中汇聚了膜片、密封垫、密封材、O型圈、防振橡胶LIM产品等各种各样的产品群。</span><br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
@@ -395,7 +467,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  11 => 
+  13 => 
   array (
     'id' => '8',
     'custom_url' => '',
@@ -430,7 +502,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  12 => 
+  14 => 
   array (
     'id' => '5',
     'custom_url' => '',
@@ -475,7 +547,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  13 => 
+  15 => 
   array (
     'id' => '4',
     'custom_url' => '',

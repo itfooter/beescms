@@ -13,17 +13,14 @@
 <div class="center">
 	{flash/}       
     <div class="centertext">
-    	{assign source=get_tpl_list_nav() name=tree/}
+    	{assign source=get_tpl_cate_list($where='is_index=1',$pic='yes',$order_type='',$order='',$limit='0,2',$lang='') name=index_cate/}
+        {loop source=$index_cate}
     	<div class="centerli">
-        	<h3>工业用品<font>GONG YE YONG PIN</font></h3>
-           <img class="centerliimg" src="{path template/}/images/gongyeBanner.png" />
-           <a href="#"><img style="margin:0 77px;" src="{path template/}/images/btn_moer.png" /></a>
+        	<h3><a href="{print $v['cate_url']/}">{print $v['cate_name']/}</a></h3>
+           <a href="{print $v['cate_url']/}"><img class="centerliimg" src="{print $v['cate_pic2']/}" /></a>
+           <a href="{print $v['cate_url']/}"><img style="margin:0 77px;" src="{path template/}/images/btn_moer.png" /></a>
        </div>
-       <div class="centerli">
-        	<h3>卫厨用品<font>GONG YE YONG PIN</font></h3>
-           <img class="centerliimg" src="{path template/}/images/weichuBanner.png" />
-           <a href="#"><img style="margin:0 77px;" src="{path template/}/images/btn_moer.png" /></a>
-       </div>
+       {/loop}
        
        <div class="centerli" style="background:none">
         	<a href="/down/down.php?id=31"><img src="{path template/}/images/download.jpg" /></a>

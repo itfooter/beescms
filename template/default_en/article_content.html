@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>公司介绍_{print webinfo('web_name')/}</title>
+<title>{print content('small_title')/}_{print cateinfo('cate_title_seo')/}_{print webinfo('web_name')/}</title>
 <link href="{path template/}/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -15,7 +15,8 @@
 
     <div class="leftcontent">
     
-    {print get_block_content('about_us')/}
+    {print content('content')/}
+    
 	</div>
   </div>
     <div class="right">

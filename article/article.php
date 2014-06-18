@@ -36,7 +36,7 @@ if($_confing['is_cache']){
     $tpl->template_is_cache=0;
 }
 
-$cate_info['cate_pic'] = $cate_info['cate_pic1'] ? '<div class="banner" style="background-image:url(/upload/'.$cate_info['cate_pic1'].'); margin-bottom:0px;"></div>' : '';
+$cate_info['cate_pic'] = $cate_info['cate_pic1'] ? '<div class="banner" style="background-image:url(/upload/'.$cate_info['cate_pic1'].'); margin-bottom:0px;"></div>' : '<div class="banner"  style="height:0;"></div>';
 
 //获取第一个关键词作为相关内容调用
 $key_arr = empty($cate_info['cate_key_seo'])?'':explode(',',$cate_info['cate_key_seo']);

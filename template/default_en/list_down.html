@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>文件下载</title>
+<title>downlaod</title>
 <title>{print cateinfo('cate_title_seo')/}_{print webinfo('web_name')/}</title>
 <link href="{path template/}/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -25,7 +25,7 @@
         	<ul class="down">
             {loop  source=list_article()}
             {assign source=get_down_info($v['id'],'down',$table='down') name=down/}
-            <a href="{print $down['file_path']/}" {print $v['target']/} style="{print $v['style']/}"><li>{print $v['style_title']/} 点击下载</li></a>
+            <a href="{print $down['file_path']/}" {print $v['target']/} style="{print $v['style']/}"><li>{print $v['style_title']/} click download</li></a>
             {/loop}
             </ul>
         </div>

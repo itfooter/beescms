@@ -65,7 +65,7 @@ $category=array (
     'cate_pic2' => '',
     'cate_pic3' => '',
     'cate_content' => '<p>
-	iiiiii</p>
+	BF膜片相关介绍</p>
 ',
     'temp_id' => '4',
     'list_num' => '20',
@@ -190,8 +190,8 @@ $category=array (
     'cate_rank' => '0',
     'cate_tpl' => '0',
     'cate_tpl_index' => '',
-    'cate_tpl_list' => 'list_product.html',
-    'cate_tpl_content' => 'product_content.html',
+    'cate_tpl_list' => 'list_product_info.html',
+    'cate_tpl_content' => '',
     'cate_title_seo' => '',
     'cate_key_seo' => '',
     'cate_info_seo' => '',
@@ -207,7 +207,7 @@ $category=array (
     'cate_pic2' => '',
     'cate_pic3' => '',
     'cate_content' => '<p>
-	<strong>产品介绍</strong><br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
+	<strong>product intro</strong><br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
 	<br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
 	<span style="widows: 2; text-transform: none; text-indent: 0px; display: inline !important; font: 12px/20px 宋体; white-space: normal; orphans: 2; float: none; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px">弊公司开发并生产高品质橡胶部品及合成部品，销售至多个领域（市场）。</span><br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
 	<span style="widows: 2; text-transform: none; text-indent: 0px; display: inline !important; font: 12px/20px 宋体; white-space: normal; orphans: 2; float: none; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px">我们的产品中汇聚了膜片、密封垫、密封材、O型圈、防振橡胶LIM产品等各种各样的产品群。</span><br style="widows: 2; text-transform: none; text-indent: 0px; font: 12px/20px 宋体; white-space: normal; orphans: 2; letter-spacing: normal; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px" />
@@ -296,7 +296,9 @@ $category=array (
     'cate_pic1' => 'img/201406122059458124.jpg',
     'cate_pic2' => '',
     'cate_pic3' => '',
-    'cate_content' => '',
+    'cate_content' => '<p>
+	用途与市场</p>
+',
     'temp_id' => '0',
     'list_num' => '20',
     'nav_show' => '0',
@@ -309,14 +311,14 @@ $category=array (
     'cate_name' => 'Market',
     'cate_mb_is' => '0',
     'cate_hide' => '0',
-    'cate_channel' => '1',
+    'cate_channel' => '3',
     'cate_fold_name' => 'market',
     'cate_order' => '4',
     'cate_rank' => '0',
-    'cate_tpl' => '3',
+    'cate_tpl' => '0',
     'cate_tpl_index' => '',
-    'cate_tpl_list' => 'list_alone.html',
-    'cate_tpl_content' => 'alone_content.html',
+    'cate_tpl_list' => 'list_product.html',
+    'cate_tpl_content' => 'product_content.html',
     'cate_title_seo' => 'Market',
     'cate_key_seo' => 'Market',
     'cate_info_seo' => '',
@@ -344,14 +346,14 @@ $category=array (
     'cate_name' => 'Materials',
     'cate_mb_is' => '0',
     'cate_hide' => '0',
-    'cate_channel' => '1',
+    'cate_channel' => '3',
     'cate_fold_name' => 'materials',
     'cate_order' => '5',
     'cate_rank' => '0',
-    'cate_tpl' => '3',
-    'cate_tpl_index' => NULL,
-    'cate_tpl_list' => 'list_alone.html',
-    'cate_tpl_content' => 'alone_content.html',
+    'cate_tpl' => '0',
+    'cate_tpl_index' => '',
+    'cate_tpl_list' => 'list_product.html',
+    'cate_tpl_content' => 'product_content.html',
     'cate_title_seo' => '',
     'cate_key_seo' => '',
     'cate_info_seo' => '',
@@ -414,14 +416,14 @@ $category=array (
     'cate_name' => 'Reation',
     'cate_mb_is' => '0',
     'cate_hide' => '0',
-    'cate_channel' => '1',
+    'cate_channel' => '2',
     'cate_fold_name' => 'reation',
     'cate_order' => '6',
     'cate_rank' => '0',
-    'cate_tpl' => '3',
+    'cate_tpl' => '0',
     'cate_tpl_index' => '',
-    'cate_tpl_list' => 'list_relation.html',
-    'cate_tpl_content' => 'alone_content.html',
+    'cate_tpl_list' => 'list_article.html',
+    'cate_tpl_content' => 'article_content.html',
     'cate_title_seo' => '',
     'cate_key_seo' => '',
     'cate_info_seo' => '',
@@ -479,13 +481,83 @@ $category=array (
   ),
   13 => 
   array (
-    'id' => '38',
+    'id' => '42',
     'custom_url' => '',
-    'cate_name' => '工业用品',
+    'cate_name' => 'download',
+    'cate_mb_is' => '0',
+    'cate_hide' => '0',
+    'cate_channel' => '4',
+    'cate_fold_name' => 'download_en',
+    'cate_order' => '10',
+    'cate_rank' => '0',
+    'cate_tpl' => '0',
+    'cate_tpl_index' => NULL,
+    'cate_tpl_list' => 'list_down.html',
+    'cate_tpl_content' => 'down_content.html',
+    'cate_title_seo' => '',
+    'cate_key_seo' => '',
+    'cate_info_seo' => '',
+    'lang' => 'en',
+    'cate_parent' => '0',
+    'cate_html' => '1',
+    'cate_nav' => '',
+    'is_content' => '0',
+    'cate_url' => 'http://',
+    'cate_is_open' => '0',
+    'form_id' => '0',
+    'cate_pic1' => '',
+    'cate_pic2' => '',
+    'cate_pic3' => '',
+    'cate_content' => '',
+    'temp_id' => '0',
+    'list_num' => '20',
+    'nav_show' => '0',
+    'is_index' => '0',
+  ),
+  14 => 
+  array (
+    'id' => '41',
+    'custom_url' => '',
+    'cate_name' => 'contact us',
+    'cate_mb_is' => '0',
+    'cate_hide' => '0',
+    'cate_channel' => '1',
+    'cate_fold_name' => 'contact_us_en',
+    'cate_order' => '10',
+    'cate_rank' => '0',
+    'cate_tpl' => '3',
+    'cate_tpl_index' => NULL,
+    'cate_tpl_list' => 'list_alone.html',
+    'cate_tpl_content' => 'alone_content.html',
+    'cate_title_seo' => '',
+    'cate_key_seo' => '',
+    'cate_info_seo' => '',
+    'lang' => 'en',
+    'cate_parent' => '0',
+    'cate_html' => '1',
+    'cate_nav' => '',
+    'is_content' => '1',
+    'cate_url' => 'http://',
+    'cate_is_open' => '0',
+    'form_id' => '0',
+    'cate_pic1' => '',
+    'cate_pic2' => '',
+    'cate_pic3' => '',
+    'cate_content' => '',
+    'temp_id' => '0',
+    'list_num' => '20',
+    'nav_show' => '0',
+    'is_index' => '0',
+  ),
+  15 => 
+  array (
+    'id' => '40',
+    'custom_url' => '',
+    'cate_name' => '三元乙丙橡胶（EPDM）',
     'cate_mb_is' => '0',
     'cate_hide' => '0',
     'cate_channel' => '3',
-    'cate_fold_name' => 'gyyp',
+    'cate_fold_name' => 'syybxj',
     'cate_order' => '10',
     'cate_rank' => '0',
     'cate_tpl' => '0',
@@ -496,7 +568,7 @@ $category=array (
     'cate_key_seo' => '',
     'cate_info_seo' => '',
     'lang' => 'cn',
-    'cate_parent' => '26',
+    'cate_parent' => '29',
     'cate_html' => '1',
     'cate_nav' => '',
     'is_content' => '0',
@@ -504,15 +576,110 @@ $category=array (
     'cate_is_open' => '0',
     'form_id' => '0',
     'cate_pic1' => '',
-    'cate_pic2' => 'img/201406161313198761.png',
+    'cate_pic2' => '',
     'cate_pic3' => '',
     'cate_content' => '',
     'temp_id' => '0',
     'list_num' => '20',
     'nav_show' => '0',
+    'is_index' => '0',
+  ),
+  16 => 
+  array (
+    'id' => '39',
+    'custom_url' => '',
+    'cate_name' => '十川橡胶的配合技术',
+    'cate_mb_is' => '0',
+    'cate_hide' => '0',
+    'cate_channel' => '3',
+    'cate_fold_name' => 'shichuan',
+    'cate_order' => '10',
+    'cate_rank' => '0',
+    'cate_tpl' => '0',
+    'cate_tpl_index' => NULL,
+    'cate_tpl_list' => 'list_product.html',
+    'cate_tpl_content' => 'product_content.html',
+    'cate_title_seo' => '',
+    'cate_key_seo' => '',
+    'cate_info_seo' => '',
+    'lang' => 'cn',
+    'cate_parent' => '29',
+    'cate_html' => '1',
+    'cate_nav' => '',
+    'is_content' => '0',
+    'cate_url' => 'http://',
+    'cate_is_open' => '0',
+    'form_id' => '0',
+    'cate_pic1' => '',
+    'cate_pic2' => '',
+    'cate_pic3' => '',
+    'cate_content' => '<p>
+	<b style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">十川橡胶的配合技术</b><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">橡胶活跃在橡皮筋和弹力球的汽车，火车，电梯等领域。</span><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">各个橡胶产品的材质都是一样的？事实不是这样的。</span><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">根据其大小，用途，使用环境材质（配合）都有很大区别的。</span><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">讲的再通俗点，就如同拉面一样。</span><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">例如说起酱油味的拉面，每个店的味道也是不一样的。</span><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">这是因为每个店的配方和做法都是不一样的（比如是否有慢慢的煮出汤汁）。</span><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">故，比如说橡胶产品的材质EPDM，其他的厂家制作的产品打着配方也是EPDM的名号，难道他们的配方就是一样的吗？</span><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">其实是不一样的，（从某种意义上来说是烦恼呢还是深奥呢？）</span><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">十川橡胶主要致力于探求和开发大家生活中不可或缺的所谓高性能橡胶的核心产品，为大家生产出有用的橡胶产品。</span><br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<br style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;" />
+	<span style="color: rgb(0, 0, 0); font-family: 宋体; line-height: 20px;">链接左边的材料清单，便可得知各种材料的详细信息。</span></p>
+',
+    'temp_id' => '0',
+    'list_num' => '20',
+    'nav_show' => '0',
+    'is_index' => '0',
+  ),
+  17 => 
+  array (
+    'id' => '38',
+    'custom_url' => '',
+    'cate_name' => '工业用品',
+    'cate_mb_is' => '0',
+    'cate_hide' => '0',
+    'cate_channel' => '3',
+    'cate_fold_name' => 'gyyp',
+    'cate_order' => '10',
+    'cate_rank' => '0',
+    'cate_tpl' => '2',
+    'cate_tpl_index' => '',
+    'cate_tpl_list' => 'list_product.html',
+    'cate_tpl_content' => 'product_content.html',
+    'cate_title_seo' => '',
+    'cate_key_seo' => '',
+    'cate_info_seo' => '',
+    'lang' => 'cn',
+    'cate_parent' => '26',
+    'cate_html' => '1',
+    'cate_nav' => '',
+    'is_content' => '0',
+    'cate_url' => '/product/product.php?id=38',
+    'cate_is_open' => '0',
+    'form_id' => '0',
+    'cate_pic1' => '',
+    'cate_pic2' => 'img/201406161313198761.png',
+    'cate_pic3' => '',
+    'cate_content' => '<p>
+	工业用品介绍：</p>
+<div>
+	昨日，吉林市民在松花江吉林段钓鱼时，无意中钓到一颗动物牙齿化石。经专家查看，是古生物猛犸象的牙齿。</div>
+<div>
+	&nbsp;</div>
+<div>
+	吉林市政协文史研究员皮福生看过&ldquo;石块&rdquo;后说，该&ldquo;石块&rdquo;是古生物猛犸象的牙齿，并且应该是一头成年猛犸象的。皮福生说，这块化石经过松花江水的冲刷，外形还是很完好。吉林地区已不止一次发现古生物猛犸象的化石了，此类化石的发现对吉林地区古地理的研究具有一定价值。昨日中午，吉林市民吴德胜像往常一样来到滨江公园垂钓，没想到钓到一块长约10厘米的石块，&ldquo;石块表面光滑，细微处可见斑点，很像某种大型动物的牙齿，非常硬。&rdquo;</div>
+<div>
+	据资料显示，猛犸象也叫长毛象，是一种适应寒冷气候的动物，曾经是世界上最大的象，比现在的大象大两倍左右，重达8吨。猛犸象身高体壮，有粗壮的腿，脚生四趾，头特别大，在其嘴部长出一对弯曲的大门牙。一头成熟的猛犸，身长达5米，体高约3米。皮福生说，这个牙齿化石具体是什么时间的，还有待研究</div>
+',
+    'temp_id' => '0',
+    'list_num' => '20',
+    'nav_show' => '0',
     'is_index' => '1',
   ),
-  14 => 
+  18 => 
   array (
     'id' => '32',
     'custom_url' => '',
@@ -547,7 +714,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  15 => 
+  19 => 
   array (
     'id' => '31',
     'custom_url' => '',
@@ -582,7 +749,7 @@ $category=array (
     'nav_show' => '0',
     'is_index' => '0',
   ),
-  16 => 
+  20 => 
   array (
     'id' => '30',
     'custom_url' => '',
